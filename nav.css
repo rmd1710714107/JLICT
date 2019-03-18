@@ -1,0 +1,74 @@
+#A {
+	width: 880px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropbtn {
+
+	display: inline-block;
+	width: 110px;
+	/*使其与下拉菜单对齐，美化界面*/
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding: 18.6px 0px;
+	/*撑起高度，并使文字居于平面中心*/
+	background-color: #1c4390;
+
+}
+
+.dropdown-content {
+	z-index: 1;
+	position: absolute;
+	height: auto;
+	text-align: center;
+	display: none;
+	background-color: white;
+	min-width: 110px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	/*设置阴影，使其更具有空间感*/
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 0px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+}
+
+#A a:hover {
+	background-color: #e0a563;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	/*当鼠标移到导航栏时，隐藏的div恢复块级元素*/
+}
+
+.dropdown span {
+	width: 20.8px;
+	display: inline-block;
+	text-align: center;
+}
+
+.small {
+	width: 0px;
+	height: 7px;
+	background: #34c9dd;
+}
+
+.transform {
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	/* IE 9 */
+	-webkit-transform: rotate(0deg);
+	/* Safari and Chrome */
+}
